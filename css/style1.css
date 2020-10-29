@@ -17,7 +17,14 @@ header h3{
 	float: left;
 	height: 25px;
 	width: 20%;
-	margin-left: 3%;	
+    margin-left: 3%;	
+    border: 0px;
+    background-color: rgb(161, 177, 177);
+}
+.button:hover{
+    background-color: rgb(51, 78, 78);
+    border-top: 2px solid black;
+
 }
 .button:nth-child(4){
 	width: 23%;
