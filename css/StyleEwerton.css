@@ -1,0 +1,32 @@
+.invelope{
+    margin: auto;
+    width: 1100px;
+    height: auto;
+    background-color: rgba(151, 151, 241, 0.692);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav li {
+
+    text-decoration: none;
+}
+a:link, a:visited{
+
+    text-decoration: none;
+    color: black;
+}
+.tituloTopo{
+    font-size: 85px;
+
+
+}
+.secao{
+    height: 150px;
+    width: 500px;
+    background: rgb(42, 42, 136);
+    float: left;
+
+}
+footer{
+
+    clear: both;
+}
