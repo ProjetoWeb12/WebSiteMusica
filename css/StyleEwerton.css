@@ -3,25 +3,51 @@
     width: 1100px;
     height: auto;
     background-color: rgba(151, 151, 241, 0.692);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
 }
-nav li {
 
-    text-decoration: none;
-}
 a:link, a:visited{
 
     text-decoration: none;
-    color: black;
+    
+    font-family: 'Franklin Gothic Medium'
+}
+.ancora{
+
+    
+    margin-left: 20px;
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(213, 196, 255, 0.747));
+    filter: drop-shadow(0px 0px 3px  rgb(28, 25, 37));
+    background: rgb(166, 227, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 0px 15px 0px;
+    color: blueviolet;
+    
+    
+
+}
+.ancora:hover{
+    background: black;
+    color: rgb(166, 227, 235);
+    
+    
+}
+.menu{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 .tituloTopo{
     font-size: 85px;
-
+    font-family: 'Franklin Gothic Medium'
 
 }
 .secao{
     height: 150px;
-    width: 500px;
+    width: 700px;
     background: rgb(42, 42, 136);
     float: left;
 
