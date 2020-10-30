@@ -2,7 +2,7 @@
     margin: auto;
     width: 1100px;
     height: auto;
-    background-color: rgba(151, 151, 241, 0.692);
+    background-color: rgba(253, 253, 253, 0.692);
    
 }
 
@@ -19,7 +19,7 @@ a:link, a:visited{
     -webkit-filter: drop-shadow(0px 0px 3px rgba(213, 196, 255, 0.747));
     filter: drop-shadow(0px 0px 3px  rgb(28, 25, 37));
     background: rgb(166, 227, 235);
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -37,20 +37,52 @@ a:link, a:visited{
 }
 .menu{
     display: inline-block;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    margin-bottom   : 10px;
+    margin-top: 0px;
 }
 .tituloTopo{
     font-size: 85px;
-    font-family: 'Franklin Gothic Medium'
+    font-family: 'Franklin Gothic Medium';
+    background: rgb(115, 115, 241);
+    padding: 5px;
+    padding-left: 30px;
+    -webkit-filter: drop-shadow(0px 0px 5px black);
+    filter: drop-shadow(0px 0px 5px black);
+    border-radius: 10px;
+    letter-spacing: 3px;
+    
+}
+.imgTopo{
+    float: right;
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    padding-right: 30%;
+    
 
 }
 .secao{
-    height: 150px;
+    height: auto;
     width: 700px;
-    background: rgb(42, 42, 136);
+    background: rgb(227, 227, 243);
     float: left;
+    border-top: 2px solid rgba(189, 189, 189, 0.671);
+    margin: 4px;
+    text-align: justify;
+    
 
+}
+section p {
+
+    padding: 10px;
+}
+.titulisOfi{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
 }
 footer{
 
