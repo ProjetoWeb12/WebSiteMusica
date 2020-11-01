@@ -44,21 +44,20 @@ a:link, a:visited{
     font-size: 85px;
     font-family: 'Franklin Gothic Medium';
     background: rgb(115, 115, 241);
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
     padding-left: 30px;
     -webkit-filter: drop-shadow(0px 0px 5px black);
     filter: drop-shadow(0px 0px 5px black);
     border-radius: 10px;
     letter-spacing: 3px;
+    height: auto;
     
 }
 .imgTopo{
-    float: right;
-    max-width: 200px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
-    padding-right: 30%;
+    float: left;
+   border-radius: 20px 0px 20px 0px;
+   margin :5px;
+   
 
 
 }
@@ -70,7 +69,8 @@ a:link, a:visited{
     border-top: 2px solid rgba(189, 189, 189, 0.671);
     margin: 4px;
     text-align: justify;
-    
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    margin-bottom:30px;
 
 }
 section p {
@@ -85,6 +85,57 @@ section p {
     margin-top: 6px;
 }
 footer{
-
+	padding-top: 10px;
+	height: 40px;
+	width: 100%;
+	background-color: #00001a;
+	color: white;
+    text-align: center;
     clear: both;
+    margin-top: 30px;
+}
+
+.barraLateral{
+    width: 370px;
+    height: auto;
+    background-color: rgb(212, 215, 255);
+    float: right;
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+
+}
+.MusicaTitulo{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-top: 1px solid black;
+
+}
+.Musica{
+    color: rgb(154, 94, 233);
+    letter-spacing: 4px;    
+    margin-left: 20px;
+    
+
+}
+.Musica:hover{
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(150%);
+
+}
+ol li{
+
+    background-color: rgba(0, 0, 255, 0.116);
+    margin: 8px 5px 8px 5px ;
+    border-top: 2px solid rgb(147, 242, 255);
+
+}
+hr{
+    float: right;
+    width: 50%;
+    margin-right: 3px;
+    background-color: black;
+    
 }
