@@ -10,28 +10,28 @@ a:link, a:visited{
 
     text-decoration: none;
     
-    font-family: 'Franklin Gothic Medium'
+   
 }
 .ancora{
 
-    
+    font-family: 'Syne Mono', monospace;
     margin-left: 20px;
     -webkit-filter: drop-shadow(0px 0px 3px rgba(213, 196, 255, 0.747));
     filter: drop-shadow(0px 0px 3px  rgb(28, 25, 37));
-    background: rgb(166, 227, 235);
+    background: rgb(200, 199, 243);
     padding-top: 6px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 15px 0px 15px 0px;
-    color: blueviolet;
+    color: black
     
     
 
 }
 .ancora:hover{
-    background: black;
-    color: rgb(166, 227, 235);
+    background-image: linear-gradient(to right,  rgb(200, 199, 243), rgb(116, 114, 233));
+    color: black;
     
     
 }
@@ -39,10 +39,12 @@ a:link, a:visited{
     display: inline-block;
     margin-bottom   : 10px;
     margin-top: 0px;
+    position: relative;top: -6px ;left: 80px;
+    
 }
 .tituloTopo{
-    font-size: 85px;
-    font-family: 'Franklin Gothic Medium';
+    font-size: 80px;
+    font-family: 'Syne Mono';
     background: rgb(115, 115, 241);
     padding: 5px 5px 5px 5px;
     padding-left: 30px;
@@ -52,18 +54,72 @@ a:link, a:visited{
     letter-spacing: 3px;
     height: auto;
     
+    
 }
 .imgTopo{
     float: left;
    border-radius: 20px 0px 20px 0px;
    margin :5px;
+   max-width: 70px;
+   max-height: 70px;
+   width: auto;
+   height: auto;
    
 
+}
+.Albuns{
+    float: left;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    margin :5px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+
+}
+.musicaAlbuns{
+    margin-left: 110px;
+}
+.playlistAlbuns{
+    margin: 45px;
+    box-shadow: 1px 1px 5px rgb(88, 88, 88);
+    
+
+}
+.playlistAlbuns:hover{
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(110%);
+}
+.AncoraAlbuns{
+    color: black;
+    font-family: 'Syne Mono';
+    
+
+}
+.AncoraAlbunsLista{
+    background-color: rgba(141, 141, 141, 0.438);
+    padding: 4px;
+    border-top: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    color: black;
+
+}
+.volta{
+    font-size: 40px;
+    position:relative;top: 10px;left: 300px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(240, 240, 240);
+    height: 40px;
 
 }
 .secao{
     height: auto;
     width: 700px;
+    
     background: rgb(227, 227, 243);
     float: left;
     border-top: 2px solid rgba(189, 189, 189, 0.671);
@@ -78,34 +134,28 @@ section p {
     padding: 10px;
 }
 .titulisOfi{
-    font-size: 20px;
+    font-size: 30px;
     border-bottom: 1px solid black;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 6px;
-}
-footer{
-	padding-top: 10px;
-	height: 40px;
-	width: 100%;
-	background-color: #00001a;
-	color: white;
-    text-align: center;
-    clear: both;
-    margin-top: 30px;
+    font-family: 'Syne Mono', monospace;
 }
 
+
 .barraLateral{
+    
     width: 370px;
+  
     height: auto;
-    background-color: rgb(212, 215, 255);
+    background-color: rgb(223, 223, 223);
     float: right;
     box-shadow: 0px 0px 5px rgb(88, 88, 88);
 
 }
 .MusicaTitulo{
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Syne Mono';
     margin: 5px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.274);
@@ -113,11 +163,15 @@ footer{
 
 }
 .Musica{
-    color: rgb(154, 94, 233);
+    color: black;
     letter-spacing: 4px;    
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-top:1px solid rgb(104, 104, 104);
+    font-family: 'Syne Mono', monospace;;
+    position: relative ;top :8px ;left: 1px;
     
-
 }
 .Musica:hover{
 
@@ -127,15 +181,36 @@ footer{
 }
 ol li{
 
-    background-color: rgba(0, 0, 255, 0.116);
-    margin: 8px 5px 8px 5px ;
-    border-top: 2px solid rgb(147, 242, 255);
-
+    background-color: rgba(189, 189, 228, 0.116);
+    margin: 8px 5px 8px 30px ;
+    position: relative ;top :8px ;left: 1px;
+    list-style: decimal;
+    list-style-position: inside;
 }
+audio{
+    max-width: 250px;
+    min-width: 100px;
+    position: relative;top: -3px; left: 100px;
+    height: 30px;
+  
+}
+
+
 hr{
     float: right;
     width: 50%;
+     
     margin-right: 3px;
     background-color: black;
     
+}
+footer{
+	padding-top: 10px;
+	height: 70px;
+	width: 100%;
+	background-color: #00001a;
+	color: white;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
 }

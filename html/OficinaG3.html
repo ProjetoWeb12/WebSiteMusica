@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/StyleEwerton.css">
     <link rel="stylesheet" href="../css/reset.css">
@@ -12,15 +14,15 @@
     <div class="invelope">
        
         <div class="Topo">
-            <header>
+            <header id="Topo">
                 
                 <h1 class="tituloTopo"> <hr><img class="imgTopo" src="../img/EwertonIMG/OficinaG3.jpg" alt="">  OficinaG3</h1>
                 <div>
                     <nav>
                         <ul>
-                            <li class="menu"><a class="ancora" href="#">Membros da banda</a></li>
-                            <li class="menu"><a class="ancora" href="#">Musicas</a></li>
-                            <li class="menu"><a class="ancora" href="#">Volta</a></li>
+                            <li class="menu"><a class="ancora" href="../html/OficinaG3.html">Historia</a></li>
+                            <li class="menu"><a class="ancora" href="../html/Albuns.html">Albuns</a></li>
+                            <li class="menu"><a class="ancora" href="../index.html">Volta</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -46,13 +48,45 @@
         <div class="barraLateral">
            <aside>
                <h2 class="MusicaTitulo">Musicas</h2>
-                <ol>
-                <!--Baixar musicas parea coloca aqui-->    
-                    <li><a class="Musica" href="#"> Cante </a></li>
-                    <li><a class="Musica" href="#"> Davi</a></li>
-                    <li><a class="Musica" href="#"> João</a></li>
-                    <li><a class="Musica" href="#"> Ate Quando</a></li>
-                    <li><a class="Musica" href="#"> Indiferenca</a></li>
+                <ol >
+                    <!--Baixar musicas parea coloca aqui-->  
+                    
+                    <h4 class="Musica">Cante</h4>
+                    <audio preolad="metadata" controls pause loop>
+                        <source  src="../MuicasOficinaG3/Oficina_G3_Cante_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+            
+                    <h4 class="Musica">Davi</h4>
+                    <audio preolad="metadata" controls pause loop>
+                        <source  src="../MuicasOficinaG3/Oficina_G3_-_Acústico_-_03_Davi.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+                    
+                    <h4 class="Musica">João</h4>
+                    <audio preolad="metadata" controls pause loop>
+                        <source  src="../MuicasOficinaG3/Oficina_G3_João.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+
+                    <h4 class="Musica">indiferença</h4>
+                    <audio preolad="metadata" controls pause loop>
+                     <source  src="../MuicasOficinaG3/Oficina_G3_indiferença_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+
+                    <h4 class="Musica">Até_Quando_Humanos</h4>
+                    <audio preolad="metadata" controls pause loop>
+                     <source  src="../MuicasOficinaG3/Oficina_G3_Até_Quando_Humanos_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+
+                    <h4 class="Musica">Ele_Vive_feat_Mateus</h4>
+                    <audio preolad="metadata" controls pause loop>
+                     <source  src="../MuicasOficinaG3/Oficina_G3_Ele_Vive_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                        
+                    </audio>
+                   
                 </ol>
 
            </aside>
@@ -63,6 +97,6 @@
       
 
     </div>
-      <footer>Todos os Direitos Reservados &copy;HdA Productions 2020</footer>
+    <footer>Todos os Direitos Reservados &copy;HdA Productions 2020 <a class="volta" href="#Topo">&#11014;Topo</a></footer>
 </body>
 </html>
