@@ -1,0 +1,370 @@
+
+/*
+mark:nth-child(1){
+    background: rgb(143, 143, 143);
+    color: black;
+
+
+}
+h1::first-letter.historia{
+ somente o primeiro caractere de um elemento <h1> seja formatado 
+
+}
+*/
+/*=============================Topo do site ===================================*/
+
+
+
+
+.invelope{
+    
+    margin: auto;
+    width: 1100px;
+    height: auto;
+    
+   
+}
+.invelopeAlbuns{
+    width: 100%;
+    height: auto;
+
+}
+
+.tituloTopo{
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Syne Mono';
+    background: rgb(115, 115, 241);
+    padding: 5px 0px 5px 0px;
+    -webkit-filter: drop-shadow(0px 0px 5px black);
+    filter: drop-shadow(0px 0px 5px black);
+    border-radius: 0px 0px 10px 10px;
+    letter-spacing: 3px;
+    height: auto;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+.imgTopo{
+    float: left;
+   border-radius: 20px 0px 20px 0px;
+   margin :5px;
+   max-width: 70px;
+   max-height: 70px;
+   width: auto;
+   height: auto;
+   
+
+}
+
+hr{
+    float: right;
+    width: 50%;
+     
+    margin-right: 3px;
+    background-color: black;
+    
+}
+
+  
+.Albuns{
+    float: left;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    margin :5px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+
+}
+.playlistAlbuns{
+    margin: 45px;
+    box-shadow: 1px 1px 5px rgb(88, 88, 88);
+    
+
+}
+.playlistAlbuns:hover{
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(110%);
+}
+
+/*=============================================================================*/
+/*==============================Corpo da pagina===================================*/
+
+.historia{
+    height: auto;
+    width: 700px;
+    background-size:cover ;
+    background: rgb(227, 227, 243);
+    float: left;
+    border-top: 2px solid rgba(189, 189, 189, 0.671);
+    margin: 4px;
+    text-align: justify;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    margin-bottom:10px;
+
+}
+.titulisOfi{
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    font-family: 'Syne Mono', monospace;
+    background-color: rgba(71, 71, 71, 0.123);
+}
+/*
+.secao:nth-child(1){
+    background-image: url(../../img/EwertonIMG/img9.jpg);
+    width: 1100px;
+    background-size:cover ;
+}
+.secao:nth-child(2){
+    background-image: url(../../img/EwertonIMG/img8.jpg);
+    background-size:cover ;
+    width: 1100px;
+}
+.secao:nth-child(3){
+    background-image: url(../../img/EwertonIMG/img4.jpg);
+    background-size:cover ;
+    width: 1100px;
+}
+.secao:nth-child(4){
+    background-image: url(../../img/EwertonIMG/img7.jpg);
+    background-size:cover ;
+    width: 1100px;
+    
+}*/
+section#Secao1{
+    /*Gospel Collection*/
+    background-image: url(../../img/EwertonIMG/img6.jpg);
+    width: 100%;
+}
+section#Secao2{
+    /*Historias e Bicicletas*/
+    background-image: url(../../img/EwertonIMG/img5.jpg);
+    width: 100%;
+}
+section#Secao3{
+    /*Dvd Acustico*/
+    background-image: url(../../img/EwertonIMG/guitarra.jpg);
+    width: 100%;
+}
+section#Secao4{
+    background-image: url(../../img/EwertonIMG/img8.jpg);
+    width: 100%;
+}
+
+.secao{
+    background: rgb(227, 227, 243);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    /*border-top: 2px solid rgba(189, 189, 189, 0.671);*/
+    text-align: justify;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    
+    
+
+}
+section p {
+
+    padding: 10px;
+    
+
+}
+.marcaçãoInf{
+    background: rgba(129, 129, 129, 0.534);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 4px;
+
+}
+
+/*================================================================================*/
+
+/*==============================Barra lateral=====================================*/
+.AncoraAlbuns{
+    color: black;
+    font-family: 'Syne Mono';
+    
+
+}
+.AncoraAlbunsLista{
+    background-color: rgba(141, 141, 141, 0.438);
+    padding: 4px;
+    border-top: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    color: black;
+    list-style: decimal;
+    list-style-position:inside;
+    font-size: 16px;
+
+}
+
+
+.fixadoTopo{
+    
+   /*====menu da pagina albuns=====*/
+    position: fixed;
+    top: 83px; 
+    left: 850px;
+    
+
+}
+.fixadobarraLateral{
+    position: fixed;
+    top: 60px; 
+    left: 850px;
+  
+  
+}
+.infBanda{
+    background: rgba(148, 148, 148, 0.322);
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Syne Mono';
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 4px;
+    border-top: 1px solid rgba(0, 0, 0, 0.486);
+
+}
+a:link, a:visited{
+
+    text-decoration: none;
+    
+   
+}
+.ancora{
+
+    font-family: 'Syne Mono', monospace;
+    margin-left: 20px;
+    background-color: rgba(235, 235, 245, 0.438);
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 15px 0px 0px;
+    color: rgb(7, 7, 7);
+    transition: color 1s;
+    
+
+}
+
+.ancora:hover,.ancora:focus{
+    
+    color: white;
+    background: rgb(227, 227, 243);
+    
+    
+}
+.menu{
+    
+    display: inline-block;
+    margin-bottom   : 10px;
+    margin-top: 0px;
+   
+    /*position: relative;top: -6px ;left: 80px;*/       
+    
+}
+.menuFixado{
+    float: right;
+    position: relative;
+    top: 4px;
+    left: -93px;
+    
+    
+   /*Classe ligada ao menu da pagina principal*/
+}
+
+
+.barraLateral{
+    
+    width: 370px;
+    display: inline-block;
+    height: auto;
+    background: rgb(227, 227, 243);
+  
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+    
+
+}
+.MusicaTitulo{
+    font-size: 25px;
+    font-family: 'Syne Mono';
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-top: 1px solid black;
+
+}
+.Musica{
+    color: black;
+    letter-spacing: 4px;    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-top:1px solid rgb(104, 104, 104);
+    font-family: 'Syne Mono', monospace;;
+    position: relative ;top :8px ;left: 1px;
+    
+}
+.Musica:hover{
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(150%);
+
+}
+ol li{
+    font-size: 15px;
+    font-family: 'Syne Mono', monospace;
+    background-color: rgba(189, 189, 228, 0.116);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    
+    /*list-style: decimal;
+    list-style-position: inside;*/      
+}
+ol{
+    padding-inline-start: 5px;
+
+}
+audio{
+    max-width: 250px;
+    min-width: 100px;
+    position: relative;top: -3px; left: 100px;
+    height: 30px;   
+    
+}
+/*==============================================================================================*/
+
+/*=====================================Rodape===================================================*/
+
+footer{
+	padding-top: 10px;
+	height: 70px;
+	width: 100%;
+	background-color: #00001a;
+	color: white;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
+    display: block;
+}
+.volta{
+    font-size: 40px;
+    position:relative;top: 10px;left: 300px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(240, 240, 240);
+    height: 40px;
+
+}
+/*==============================================================================================*/
