@@ -1,0 +1,64 @@
+.textDark{
+
+    font-family: 'Montserrat', sans-serif;
+    background: #a4a4a5;
+    padding: 3px;
+    border-radius: 4px;
+    transition: color 1s;
+    font-size: 15px;
+}
+.textDark:focus,.textDark:hover{
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    color: rgb(113, 209, 209);
+}
+
+#dark:checked ~.box label{
+    background-color: rgb(224, 224, 224);
+    color:black
+}
+#dark:checked ~.box label:hover{
+   
+    color:rgb(185, 185, 185)
+}
+#dark{
+    display: none;
+    height: 0px;
+}
+
+#dark:checked ~.box{
+    background: rgb(82, 82, 82);
+    
+    color: rgb(194, 194, 194);
+    
+
+}
+#dark:checked ~.box h1{
+    background: rgb(58, 58, 58);
+    
+    color: rgb(187, 187, 187);
+    
+
+} 
+#dark:checked ~.box .historia{
+    background: rgb(20, 20, 20);
+   
+
+} 
+#dark:checked ~.box .sectionDark{/*seção dos albuns*/
+    background: rgb(20, 20, 20);
+}
+
+#dark:checked ~.box a:hover{
+    
+    background-color: rgb(150, 150, 150);
+
+
+}
+#dark:checked ~.box .barraLateral{
+    color: rgb(26, 26, 26);
+    background-color: rgb(150, 150, 150);
+    
+    font-weight: bolder;
+}
+
